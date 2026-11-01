@@ -1,0 +1,25 @@
+{
+  "name": "mawg-marketplace",
+  "description": "Marcin Weglowski's Claude Code plugins",
+  "owner": {
+    "name": "Marcin Weglowski"
+  },
+  "plugins": [
+    {
+      "name": "statusbar",
+      "description": "Customizable status bar with 20+ widgets, 3 layouts, pixel art mascot, and interactive configuration",
+      "source": {
+        "source": "github",
+        "repo": "mcweglowski/claude-statusbar-mawg"
+      }
+    },
+    {
+      "name": "session-gauge",
+      "description": "Bar above the prompt: context, usage limits, cost, cache countdown and one-click handoff",
+      "source": {
+        "source": "github",
+        "repo": "mcweglowski/claude-session-gauge"
+      }
+    }
+  ]
+}
